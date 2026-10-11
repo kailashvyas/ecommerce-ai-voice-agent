@@ -1,0 +1,46 @@
+# Environments & Secrets
+.env
+.env.*
+!.env.dist
+!.env.example
+!env.dist
+voice-agent/.env
+voice-agent/.env.*
+
+# Python Virtual Environments & Caches
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Node & Frontend Build Artifacts
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.eslintcache
+
+# SQLite Databases
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+backend/products.db
+
+# Antigravity, Gemini & Agent metadata
+.agents/
+.gemini/
+
+# Operating System & IDE Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
